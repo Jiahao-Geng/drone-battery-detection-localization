@@ -8,4 +8,6 @@ Estimate the 6D pose of the battery
 Provide precise positioning for robotic manipulator grasping
 
 # Installation:
-Clone this repository:
+Clone this repository:  
+git clone https://github.com/Jiahao-Geng/drone-battery-detection-localization.git
+
