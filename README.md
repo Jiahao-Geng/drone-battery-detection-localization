@@ -19,13 +19,15 @@ pip install -r requirements.txt
 ## Usage
 
 1. Prepare the dataset:
-python scripts/data_preparation.py
+   - Place the images in `data/images/`
+   - Place the labels in `data/labels/`
+   - Create a `data/battery.yaml` file with dataset configuration
 
 2. Train the model:
-python scripts/train.py
+python src/train.py
 
 3. Run inference:
-python scripts/inference.py
+python src/utils.py
 
 ## Dataset
 
