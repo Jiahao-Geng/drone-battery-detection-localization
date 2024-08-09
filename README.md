@@ -1,4 +1,4 @@
-# Drone Battery Detection and 6D Pose Estimation  
+# Drone Battery Detection and Pose Estimation  
 
 This project aims to utilize computer vision and machine learning techniques to detect and estimate the 6D pose of a specific type of drone battery，  
 whcih could be applied on automatic drone battery hot-swapping. 
@@ -9,7 +9,9 @@ Detect the battery in images
 Estimate the 6D pose of the battery
 Provide precise positioning for robotic manipulator grasping
 
-# Battery Detection and Pose Estimation Guide  
+
+
+# Usage Guide  
 
 This guide provides step-by-step instructions for setting up and running the Battery Detection and Pose Estimation project using YOLOv5 and Intel RealSense camera.
 
@@ -28,13 +30,7 @@ This guide provides step-by-step instructions for setting up and running the Bat
    cd battery-detection-project
    ```
 
-2. Create a virtual environment and activate it:
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. Install the required packages:
+2. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
