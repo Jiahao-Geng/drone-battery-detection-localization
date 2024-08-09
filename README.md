@@ -26,8 +26,9 @@ pip install -r requirements.txt
 2. Train the model:
 python src/train.py
 
-3. Run inference:
-python src/utils.py
+2. Run detection and pose estimation:
+python src/detect.py
+
 
 ## Dataset
 
